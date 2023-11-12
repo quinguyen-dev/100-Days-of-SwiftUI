@@ -36,6 +36,7 @@ struct ContentView: View {
                         TextField("Total bill", value: $checkAmount, format: .currency(code: Locale.current.currency?.identifier ?? "USD"))
                             .keyboardType(.decimalPad)
                             .multilineTextAlignment(.trailing)
+                            .foregroundStyle(tipPercentage == 0 ? .red : .primary)
                             .focused($amountIsFocused)
                     } label: {
                         Text("Amount")

@@ -40,9 +40,7 @@ struct ContentView: View {
                     Button {
                         flagTapped(number)
                     } label: {
-                        Image(countries[number])
-                            .shadow(radius: 5)
-                            .border(colorScheme == .dark ? .white : .clear)
+                        FlagImage(image: countries[number])
                     }
                 }
             }

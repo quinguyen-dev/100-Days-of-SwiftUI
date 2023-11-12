@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5753D1F62B0059F500BDAABA /* FlagImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5753D1F52B0059F500BDAABA /* FlagImage.swift */; };
+		5753D1F82B005B6B00BDAABA /* Title.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5753D1F72B005B6B00BDAABA /* Title.swift */; };
 		579EF9192AF1CC5800B9C9B9 /* GuessTheFlagApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 579EF9182AF1CC5800B9C9B9 /* GuessTheFlagApp.swift */; };
 		579EF91B2AF1CC5800B9C9B9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 579EF91A2AF1CC5800B9C9B9 /* ContentView.swift */; };
 		579EF91D2AF1CC5900B9C9B9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 579EF91C2AF1CC5900B9C9B9 /* Assets.xcassets */; };
@@ -14,6 +16,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5753D1F52B0059F500BDAABA /* FlagImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlagImage.swift; sourceTree = "<group>"; };
+		5753D1F72B005B6B00BDAABA /* Title.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Title.swift; sourceTree = "<group>"; };
 		579EF9152AF1CC5800B9C9B9 /* GuessTheFlag.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GuessTheFlag.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		579EF9182AF1CC5800B9C9B9 /* GuessTheFlagApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuessTheFlagApp.swift; sourceTree = "<group>"; };
 		579EF91A2AF1CC5800B9C9B9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -53,6 +57,8 @@
 			children = (
 				579EF9182AF1CC5800B9C9B9 /* GuessTheFlagApp.swift */,
 				579EF91A2AF1CC5800B9C9B9 /* ContentView.swift */,
+				5753D1F52B0059F500BDAABA /* FlagImage.swift */,
+				5753D1F72B005B6B00BDAABA /* Title.swift */,
 				579EF91C2AF1CC5900B9C9B9 /* Assets.xcassets */,
 				579EF91E2AF1CC5900B9C9B9 /* Preview Content */,
 			);
@@ -137,7 +143,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5753D1F82B005B6B00BDAABA /* Title.swift in Sources */,
 				579EF91B2AF1CC5800B9C9B9 /* ContentView.swift in Sources */,
+				5753D1F62B0059F500BDAABA /* FlagImage.swift in Sources */,
 				579EF9192AF1CC5800B9C9B9 /* GuessTheFlagApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
